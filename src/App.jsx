@@ -30,20 +30,30 @@ function App() {
         </div>
       </div>
 
-      {/* Iframe Chatbot Embed */}
+      {/* Iframe Chatbot Embed with Branding Cover */}
       <div className="fixed bottom-4 right-4 z-50 w-[90%] max-w-[400px]">
-        <div className="w-full h-[70vh] md:h-[600px]">
+        <div className="relative w-full h-[70vh] md:h-[600px] rounded-xl overflow-hidden shadow-2xl">
           <iframe 
-            src="https://interfaces.zapier.com/embed/chatbot/cm9ikfav7000rj6uyaflqlpln" 
+            src="https://interfaces.zapier.com/embed/chatbot/cm9ikfav7000rj6uyaflqlpln"
             allow="clipboard-write *"
             style={{
               border: 'none',
               borderRadius: '12px',
               width: '100%',
               height: '100%'
-            }} 
+            }}
             title="Mechanical Engineering AI Chatbot"
           ></iframe>
+
+          {/* Overlay to hide Zapier branding */}
+          <div 
+            className="absolute bottom-0 left-0 w-full h-8 bg-gray-900"
+            style={{
+              borderBottomLeftRadius: '12px',
+              borderBottomRightRadius: '12px',
+              zIndex: 10
+            }}
+          ></div>
         </div>
       </div>
 
