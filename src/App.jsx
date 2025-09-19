@@ -19,7 +19,7 @@ const carsData = [
     fuel: "Petrol",
     seats: 5,
     transmission: "Manual",
-    img: "/assets/swift.jpg",
+    img: "/swift.jpg",
   },
   {
     id: 2,
@@ -28,7 +28,7 @@ const carsData = [
     fuel: "Petrol",
     seats: 5,
     transmission: "Automatic",
-    img: "/assets/creta.png",
+    img: "/creta.png",
   },
   {
     id: 3,
@@ -37,7 +37,7 @@ const carsData = [
     fuel: "Diesel",
     seats: 7,
     transmission: "Manual",
-    img: "/assets/innova.jpg",
+    img: "/innova.jpg",
   },
 ];
 
